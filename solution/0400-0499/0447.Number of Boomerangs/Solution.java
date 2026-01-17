@@ -1,6 +1,7 @@
 class Solution {
     public int numberOfBoomerangs(int[][] points) {
         int ans = 0;
+
         for (int[] p1 : points) {
             Map<Integer, Integer> cnt = new HashMap<>();
             for (int[] p2 : points) {
